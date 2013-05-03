@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/vitan/Projects/HLEPM/LWEPM/static/js'
+let g:netrw_dirhist_2='/home/vitan/rhpkg/Django/etc/bash_completion.d'
+let g:netrw_dirhist_3='/home/vitan/Projects/HLEPM'
+let g:netrw_dirhist_4='/home/vitan/Projects/django-widget-tweaks'
+let g:netrw_dirhist_5='/home/vitan/Projects/django-widget-tweaks/build'
+let g:netrw_dirhist_6='/home/vitan/Projects/django-widget-tweaks/build/bdist.linux-i686'
+let g:netrw_dirhist_7='/home/vitan/Projects/django-widget-tweaks/build/bdist.linux-i686/rpm'
+let g:netrw_dirhist_8='/home/vitan/Projects/django-widget-tweaks/build/bdist.linux-i686/rpm/SPECS'
