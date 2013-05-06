@@ -55,3 +55,7 @@ test/
 id_rsa
 id_rsa.pub
 dropbear-weizhou.pem
+.config/evolution/
+.config/gedit/
+.config/ipython/
+.vim/.netrwhist
