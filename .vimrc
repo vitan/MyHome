@@ -13,6 +13,7 @@
 autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
 "turn on line number
 set number 
+set list
 "Toggle line numbers and fold column for easy copying
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 autocmd FileType python set omnifunc=pythoncomplete#Complete
