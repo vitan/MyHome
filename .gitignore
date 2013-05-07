@@ -59,3 +59,5 @@ dropbear-weizhou.pem
 .config/gedit/
 .config/ipython/
 .vim/.netrwhist
+.ssh/redhat_id_rsa
+.ssh/redhat_id_rsa.pub
