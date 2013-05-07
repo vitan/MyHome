@@ -26,6 +26,9 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
 let Tlist_File_Fold_Auto_Close = 1
 map <silent> <F9> :TlistToggle<CR>
+map <silent> <F8> :NERDTreeToggle<CR>
+
+execute pathogen#infect()
 "vitan add end""""""""""""""""""""""""
 " When startd as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
