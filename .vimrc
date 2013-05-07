@@ -12,11 +12,20 @@
 "vitan add""""""""""""""""""
 autocmd FileType python set complete+=k~/.vim/syntax/python.vim isk+=.,(
 "turn on line number
-set number 
+set number
 set list
 "Toggle line numbers and fold column for easy copying
 nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+set fdm=indent
+
+""""""""""
+"Tag list
+""""""""""
+let Tlist_Exit_OnlyWindow = 1
+let Tlist_Use_Right_Window = 1
+let Tlist_File_Fold_Auto_Close = 1
+map <silent> <F9> :TlistToggle<CR>
 "vitan add end""""""""""""""""""""""""
 " When startd as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
