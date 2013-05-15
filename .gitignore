@@ -61,3 +61,8 @@ dropbear-weizhou.pem
 .vim/.netrwhist
 .ssh/redhat_id_rsa
 .ssh/redhat_id_rsa.pub
+.xchat2/servlist_.conf
+.dbvis/
+.install4j
+.java/
+DbVisualizer/
