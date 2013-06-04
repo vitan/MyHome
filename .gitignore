@@ -66,3 +66,8 @@ dropbear-weizhou.pem
 .install4j
 .java/
 DbVisualizer/
+.elinks/
+.pip/
+.rnd
+Conflux.ipynb
+certificate/
