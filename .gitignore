@@ -71,3 +71,4 @@ DbVisualizer/
 .rnd
 Conflux.ipynb
 certificate/
+*.ipynb
