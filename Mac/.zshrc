@@ -85,6 +85,6 @@ export PROJECT_HOME=$HOME/Projects
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh
 
-alias d19='ssh -f -NL 10002:192.168.100.19:22 dataman-route && ssh -p 10002 dataman-internal'
-alias ddevel='ssh -f -NL 10001:192.168.100.6:22 dataman-route && ssh -p 10001 dataman-internal'
+alias d19='ssh dataman-19'
+alias ddevel='ssh dataman-devel'
 alias dproxy='ssh -f -ND 10000 dataman-route'
