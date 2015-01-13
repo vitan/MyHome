@@ -1,0 +1,20 @@
+[user]
+ name = weitao
+ email = zhouwtlord@gmail.com
+[core]
+ editor = vim
+[alias]
+ br = branch
+ ci = commit
+ co = checkout
+ di = diff
+ dt = difftool
+ mt = mergetool
+ ol = log --oneline --decorate
+ st = status
+ unstage = reset HEAD --
+[color]
+ ui = true
+[push]
+ default = matching
+[http]
