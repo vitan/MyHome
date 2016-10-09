@@ -104,6 +104,9 @@ Bundle 'Wombat'
 " Yank history navigation
 Bundle 'YankRing.vim'
 
+" Golang
+Bundle 'fatih/vim-go'
+
 " ============================================================================
 " Install plugins the first time vim runs
 

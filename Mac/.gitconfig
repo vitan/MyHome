@@ -1,6 +1,6 @@
 [user]
- name = weitao
- email = zhouwtlord@gmail.com
+	name = Weitao Zhou
+	email = wtzhou@dataman-inc.com
 [core]
  editor = vim
 [alias]
@@ -17,3 +17,5 @@
  ui = true
 [push]
  default = matching
+[commit]
+	gpgsign = true
