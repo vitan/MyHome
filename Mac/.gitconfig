@@ -19,3 +19,6 @@
  default = matching
 [commit]
 	gpgsign = true
+[http]
+	cookiefile = /Users/zhou/.gitcookies
+	proxy = http://127.0.0.1:3213
