@@ -18,7 +18,7 @@
 [push]
  default = matching
 [commit]
-	gpgsign = true
+	gpgsign = false
 [http]
-	cookiefile = /Users/zhou/.gitcookies
-	proxy = http://127.0.0.1:3213
+	#cookiefile = /Users/zhou/.gitcookies
+	#proxy = http://127.0.0.1:3213

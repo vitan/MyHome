@@ -80,6 +80,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias baidu='web_search baidu'
+alias alicode="cd ~/Projects/go/src/gitlab.alibaba-inc.com"
 
 # CUSTOMIZED
 # bind emacs
@@ -117,9 +118,4 @@ cat /Users/zhou/.ascii-art/ego-cogito-ergo-sum.txt
 # source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
-export GOPATH=/Users/zhou/Projects/go
-
-alias dproxy-internal='ssh -f -ND 10000 dataman-internal'
-#alias skip2test='ssh -A dataman-test-route'
-alias skip2internal='ssh -A dataman-internal'
-alias freedom='ssh -f -ND 10003 freedom'
+export GOPATH=/Users/weitaozhou/Projects/go
