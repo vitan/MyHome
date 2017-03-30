@@ -106,10 +106,8 @@ else
     BOLD=""
     NORMAL=""
 fi
-printf '%s' "$GREEN"
-cat /Users/zhou/.ascii-art/Einstein.txt
 printf '%s' "$YELLOW"
-cat /Users/zhou/.ascii-art/ego-cogito-ergo-sum.txt
+cat /Users/weitaozhou/.ascii-art/yunqi.txt
 
 # TODO
 # export WORKON_HOME=$HOME/.virtualenvs
@@ -119,3 +117,4 @@ cat /Users/zhou/.ascii-art/ego-cogito-ergo-sum.txt
 
 export PATH=$PATH:/usr/local/opt/go/libexec/bin
 export GOPATH=/Users/weitaozhou/Projects/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH

@@ -108,6 +108,9 @@ Bundle 'YankRing.vim'
 " Golang
 Bundle 'fatih/vim-go'
 
+" GoDef
+let g:godef_split=3
+
 " ============================================================================
 " Install plugins the first time vim runs
 
